@@ -17,7 +17,7 @@ const Events: React.FC = () => {
         url: "https://contests7.p.rapidapi.com/contests",
         headers: {
           "X-RapidAPI-Key":
-            "b96b30d00emsh3974a59ad94e416p19bf55jsndf8de1b68e85",
+          import.meta.env.VITE_API_KEY1,
           "X-RapidAPI-Host": "contests7.p.rapidapi.com",
         },
       };
