@@ -15,7 +15,7 @@ const News = () => {
         url: "https://newsapi.org/v2/top-headlines",
         params: {
           country: "in",
-          apiKey: import.meta.env.VITE_API_KEYNEWS,
+          apiKey: import.meta.env.VITE_API_KEY2,
           category: "technology",
         },
       };
