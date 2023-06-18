@@ -39,7 +39,6 @@ const News = () => {
           <div>
             <ul>
               <Link to={t.url}>
-                {" "}
                 <li>{t.title}</li>
               </Link>
             </ul>

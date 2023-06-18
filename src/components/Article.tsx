@@ -1,4 +1,4 @@
-import "./Article.css"; // Import the CSS file for styling
+import "./Article.css"; 
 import image from "../images/article.jpg";
 const Article = () => {
   return (

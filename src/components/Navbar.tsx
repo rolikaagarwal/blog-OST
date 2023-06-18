@@ -13,7 +13,7 @@ const Navbar: React.FC = (): React.ReactElement => {
         <li className="pr-5 cursor-pointer">
           <Link to="/Events">Events</Link>
         </li>
-        <li className="pr-5 cursor-pointer">Jobs</li>
+        <Link to="/JobSection"><li className="pr-5 cursor-pointer">Jobs</li></Link>
       </ul>
     </>
   );
