@@ -1,0 +1,17 @@
+.heading {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 1px;
+}
+.newsdiv {
+  background-color: rgb(231, 221, 240);
+  margin-bottom: 2px;
+  padding-left: 30px;
+  padding: 40px;
+  color: rgb(16, 16, 167);
+}
+.newsdiv:hover {
+  color: rgb(1, 1, 54);
+}
