@@ -22,7 +22,7 @@ const News = () => {
 
       try {
         const response = await axios.request(options);
-
+        console.log(response)
         setNews(response.data.articles);
       } catch (error) {
         console.error(error);
